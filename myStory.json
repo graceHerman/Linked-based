@@ -1,0 +1,145 @@
+{
+    "Title": "UCSC student on break",
+    "Credits": "Created by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "My apartment",
+    "Key": [],
+    "Locations": {
+        "My apartment": {
+            "Body": "My apartment, let's take a break from studying by going on a walk in Downtown",
+            "Choices": [
+                {
+                    "Text": "North",
+                    "Target": "Forever 21"
+                }
+            ]
+        },
+        "Forever 21": {
+            "Body": "Forever 21, there's a lot of outfits on display.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "My apartment"
+                },
+                {
+                    "Text": "West",
+                    "Target": "Gap!"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Restuarant"
+                }
+            ]
+        },
+        "Restuarant": {
+            "Body": "The restuarant, there's not many people eating here today. The food looks good, though!",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Forever 21"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Candy Store"
+                }
+            ]
+        },
+        "Candy Store": {
+            "Body": "There's the Candy Store, so many kids are eyeballing the delicious candy.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Restuarant"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Book Store"
+                }
+            ]
+        },
+        "Book Store": {
+            "Body": "The Book Store, there's many books on book shelves, and many items to see.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Candy Store"
+                },
+                {
+                    "Text": "Interact with a book",
+                    "Target": "Interact"
+                }
+            ],
+            "Interact": {
+                "Body": "The book titled, The Secret Life of a College Student,  It's about a student trying to balance academics and personal time.",
+                "Options": [ 
+                    {
+                        "Text": "Flip through the pages.",
+                        "Target": "Interact"
+                    },
+                    {
+                        "Text": "Look at the front and back.",
+                        "Target": "Interact"
+                    },
+                    {
+                        "Text": "Put the book back on the shelf",
+                        "Target": "Book Store"
+                    }
+                ]
+            }
+        },
+        "Gap!": {
+            "Body": "Gap!, the clothes here seem good but crazy expensive.",
+            "Choices": [
+                {
+                    "Text": "East",
+                    "Target": "Forever 21"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Game Store"
+                }
+            ]
+        },
+        "Game Store": {
+            "Body": "Here's the Gaming store, it's always fun to see the different types of games, merchandise, and gaming consoles.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Gap!"
+                },
+                {
+                    "Text": "North",
+                    "Target": "Nanda"
+                }
+            ]
+        },
+        "Nanda": {
+            "Body": "Nanda, another apartment building where your friend, Chelsey, lives at.",
+            "Choices": [
+                {
+                    "Text": "South",
+                    "Target": "Game Store"
+                },
+                {
+                    "Text": "Talk with your friend, Chelsey",
+                    "Target": "Chelsey"
+                }
+            ]
+        },
+        "Chelsey": {
+            "Body": "Hi! You left your key at my place the other day.",
+            "Choices": [
+                {
+                    "Text": "Thank you so much!",
+                    "Target": "Nanda"
+                },
+                {
+                    "Text": "Spend another hour talking.",
+                    "Target": "Nanda"
+                }
+            ]
+        },
+        "Apartment Room": {
+            "Body": "Back at my apartment room, this was a good walk, let's call it a day!"
+        }
+    }
+}
